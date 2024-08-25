@@ -1,0 +1,236 @@
+#wrapper{
+    display: grid;
+    grid-template-areas: "header"
+                        "nestedgrid"
+                         "main"
+                         "main"
+                         "footer";
+
+}
+div{  
+    border: 1px solid black;
+}
+
+#header{
+    grid-area: header;
+            text-align: center;
+     background-color: deepskyblue;
+         height: 175px;
+}
+#nestedgrid{
+    display: grid;
+grid-template-areas: "home aboutme academics cultrual";
+        grid-gap: 20px;
+    background-color:aqua;
+    padding: 20px;
+}
+#main{
+    grid-area: main;
+      height: 300px;
+    background-color: aqua;
+}
+#footer{
+    grid-area: footer;
+      height: 150px;
+}
+
+#wrapper2{
+
+    display: grid;
+
+    grid-template-areas: "header"
+
+                        "nestedgrid"
+
+                         "main"
+
+                         "footer";
+
+ 
+
+}
+
+ 
+
+#header2{
+
+    grid-area: header;
+
+            text-align: center;
+
+     background-color: seagreen;
+
+         height: 50p;
+
+            grid-gap: 20px;
+
+    padding: 20px;
+
+}
+
+#nestedgrid2{
+
+    display: grid;
+
+grid-template-areas: "home academics cultrual";
+
+        grid-gap: 20px;
+
+    background-color: darkgreen;
+
+    padding: 20px;
+
+}
+
+#main2{
+
+    grid-area: main;
+
+      height: 650px;
+
+                grid-gap: 20px;
+
+    padding: 20px;
+
+        background-color: forestgreen;
+}
+
+#footer2{
+
+    grid-area: footer;
+
+      height: 150px;
+
+                grid-gap: 20px;
+
+            background-color: forestgreen;
+    
+    padding: 20px;
+
+}
+
+}
+
+#wrapper3{
+
+    display: grid;
+
+    grid-template-areas: "nestedgrid header header"
+
+                        "nestedgrid main main"
+
+                         "image main main"
+
+                         "footer footer footer";
+
+                grid-gap: 20px;
+
+    padding: 20px;
+
+}
+
+ 
+
+#header3{
+
+    grid-area: header;
+
+            text-align: center;
+
+         height: 50p;
+
+            grid-gap: 30px;
+
+    padding: 30px;
+
+            background-color: red;
+}
+
+#nestedgrid3{
+
+    display: grid;
+
+grid-template-areas: "home aboutme cultrual";
+
+  background-color: orangered;
+
+}
+
+#main3{
+
+    grid-area: main;
+
+      height: 250px;
+
+     background-color: palevioletred;
+}
+
+#footer3{
+
+    grid-area: footer;
+
+      height: 150px;
+ background-color: pink;
+}
+
+#wrapper4{
+
+    display: grid;
+
+    grid-template-areas: "header"
+
+                        "nestedgrid"
+
+                         "main"
+
+                         "footer";
+
+                    grid-gap: 20px;
+
+    padding: 20px;
+
+  background-color: mediumpurple;
+
+}
+
+div{ 
+
+    border: 1px solid black;
+
+}
+
+ #header4 {
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+}
+
+#nestedgrid4 {
+    padding: 10px;
+    
+}
+
+#nestedgrid ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nestedgrid li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#main4 {
+    padding: 20px;
+}
+
+#footer4 {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
